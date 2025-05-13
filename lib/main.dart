@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'home_screen.dart';
 import 'profile_page.dart';
-import 'my_orders_page.dart'; // Import the updated MyOrdersPage
+import 'my_orders_page.dart';
 import 'wishlist_page.dart';
 import 'shipping_address_page.dart';
 import 'product_page.dart';
@@ -22,8 +22,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => const HomeScreen(),
         '/profile': (context) => const ProfilePage(),
-        '/my_orders': (context) =>
-            const MyOrdersPage(), // Use the updated MyOrdersPage
+        '/my_orders': (context) => const MyOrdersPage(),
         '/wishlist': (context) => const WishlistPage(),
         '/shipping_address': (context) => const ShippingAddressPage(),
         '/product': (context) => const ProductPage(),
