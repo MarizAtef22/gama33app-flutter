@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_product_app/Screens/Login.dart';
+import 'package:flutter_product_app/Screens/home_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Signup extends StatefulWidget {
@@ -166,7 +167,14 @@ class _SignupState extends State<Signup> {
                   borderRadius: BorderRadius.circular(25),
                 ),
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const HomeScreen(),
+                      ),
+                    );
+                  },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.transparent,
                     shadowColor: Colors.transparent,

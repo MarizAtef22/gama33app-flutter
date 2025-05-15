@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_product_app/Screens/Splash_screen.dart';
 import 'package:flutter_product_app/Screens/home_screen.dart';
 import 'package:flutter_product_app/Screens/my_orders_page.dart';
 import 'package:flutter_product_app/Screens/product_page.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       title: 'E-Commerce App',
       initialRoute: '/',
       routes: {
-        '/': (context) => const HomeScreen(),
+        '/': (context) => const SplashScreen(),
         '/profile': (context) => const ProfilePage(),
         '/my_orders': (context) => const MyOrdersPage(),
         '/wishlist': (context) => const WishlistPage(),
