@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'home_screen.dart';
-import 'profile_page.dart';
-import 'my_orders_page.dart';
-import 'wishlist_page.dart';
-import 'shipping_address_page.dart';
-import 'product_page.dart';
+import 'package:flutter_product_app/Screens/home_screen.dart';
+import 'package:flutter_product_app/Screens/my_orders_page.dart';
+import 'package:flutter_product_app/Screens/product_page.dart';
+import 'package:flutter_product_app/Screens/profile_page.dart';
+import 'package:flutter_product_app/Screens/shipping_address_page.dart';
+import 'package:flutter_product_app/Screens/wishlist_page.dart';
 
 void main() {
   runApp(const MyApp());
