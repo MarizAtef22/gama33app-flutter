@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_product_app/Screens/AboutUs.dart';
 import 'package:flutter_product_app/Screens/Splash_screen.dart';
 import 'package:flutter_product_app/Screens/home_screen.dart';
 import 'package:flutter_product_app/Screens/my_orders_page.dart';
+import 'package:flutter_product_app/Screens/privacy.dart';
 import 'package:flutter_product_app/Screens/product_page.dart';
 import 'package:flutter_product_app/Screens/profile_page.dart';
 import 'package:flutter_product_app/Screens/shipping_address_page.dart';

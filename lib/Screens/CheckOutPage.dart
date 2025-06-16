@@ -220,7 +220,6 @@ class _CheckoutpageState extends State<Checkoutpage> {
           paymentOption('Cash on Delivery', 'assets/images/delivery.png'),
 
           const Spacer(),
-          // Pay Now Button
           Padding(
             padding: const EdgeInsets.only(left: 10, bottom: 20),
             child: Container(
